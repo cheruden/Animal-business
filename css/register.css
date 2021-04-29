@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(239, 245, 245);
+}
+
+form {
+    font-size: 14px;
+    padding: 20px;
+    border: 5px solid;
+    margin-top: 10px;
+    padding-right: 30px;
+    width: 900px;
+    height: 500px;
+}
+
+h1 {
+    color: rgb(8, 8, 8);
+    font-size: 30px;
+}
+
+#register {
+    text-align: center;
+    color: rgb(10, 9, 9);
+}
+
+#login {
+    text-align: center;
+    color: rgb(5, 4, 4);
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+
+input[type="text"] {
+    background-color: whitesmoke;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: white;
+    color: rgb(7, 7, 7);
+}
+
+input[type="number"] {
+    background-color: whitesmoke;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: white;
+    color: rgb(15, 15, 15);
+}
+
+input[type="password"] {
+    background-color: whitesmoke;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: white;
+    color: rgb(7, 6, 6);
+}
+
+input[type="submit"] {
+    background-color: whitesmoke;
+    border-color: black;
+    border-radius: 4px;
+    text-align: left;
+    color: black;
+    margin-right: 50px;
+}
+
+input[type="reset"] {
+    /* background-color: white; */
+    border-color: black;
+    border-radius: 4px;
+    text-align: left;
+    color: black;
+    margin-right: 20px;
+}
+
+input[type="checkbox"] {
+    color: black;
+    text-align: left;
+    margin-right: 10px;
+    margin-left: -20px;
+}
+
+
+
+#login>a:hover {
+    color: rgb(241, 215, 215);
+}
+
+
+li>a {
+    text-decoration: none;
+}

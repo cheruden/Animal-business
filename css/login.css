@@ -1,0 +1,83 @@
+ body {
+     background-color: rgb(217, 221, 221);
+ }
+
+ form {
+     font-size: 18px;
+     padding: 20px;
+     border: 5px solid;
+     margin-top: 10px;
+     padding-right: 30px;
+     width: 500px;
+     height: 300px;
+     text-align: center center;
+ }
+
+ h1 {
+     color: rgb(4, 4, 4, 4);
+     font-size: 30px;
+ }
+
+ #myform {
+     text-align: center;
+     color: white;
+ }
+
+
+
+ input[type="text"] {
+     background-color: rgb(63, 5, 5);
+     outline: 0;
+     border-width: 0 0 2px;
+     border-color: white;
+     color: white;
+ }
+
+ input[type="number"] {
+     background-color: rgb(63, 5, 5);
+     outline: 0;
+     border-width: 0 0 2px;
+     border-color: white;
+     color: white;
+ }
+
+ input[type="password"] {
+     background-color: rgb(63, 5, 5);
+     outline: 0;
+     border-width: 0 0 2px;
+     border-color: white;
+     color: white;
+ }
+
+ input[type="submit"] {
+     background-color: white;
+     border-color: black;
+     border-radius: 4px;
+     text-align: left;
+     color: black;
+     margin-right: 57px;
+ }
+
+ input[type="checkbox"] {
+     color: black;
+     text-align: left;
+     margin-right: 10px;
+     margin-left: -20px;
+ }
+
+ a,
+ li a {
+     text-decoration: none;
+     ;
+     color: indianred;
+     text-rendering: none;
+     background-color: #fff;
+ }
+
+ #myform>a:hover {
+     color: white;
+ }
+
+ .log-in {
+     text-align: center;
+ }
