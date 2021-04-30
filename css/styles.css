@@ -14,7 +14,8 @@ h2 span {
 }
 
 header {
-    background-image: url('../images/meat.jpeg');
+    /* background-image: url('../images/meat.jpeg'); */
+    background-color:#9C3D54;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
